@@ -1,0 +1,25 @@
+<h1>SELFASSUR</h1>
+<h3>"Comparez gratuitement les offres
+des grands assureurs et augmentez automatiquement votre pouvoir d'achat !"</h3>
+<h2>ASSURANCE EMPRUNTEUR</h2>
+<h3>Votre simulation assurance habitation</h3>
+
+<%= form_for @emprunteur do |f| %>
+
+
+<%= f.text_field :emprunt %>
+<%= f.number_field :nombre, in: 1.0..4.0  %>
+<%= f.number_field :montant %>
+<%= f.number_field :taux, in: 1.0..10.0, step: 0.5 %>
+<%= f.number_field :duree %>
+<%= f.text_field :type %>
+<%= f.number_field :differe %>
+<%= f.date_field :date %>
+
+<%= f.submit %>
+<% end %>
+
+<%= link_to "Retour sur les autres assurances", root_path %>
+
+
+

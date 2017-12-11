@@ -1,0 +1,25 @@
+.banner{
+  align-items: center;
+  display: flex;
+  justify-content: space-arround;
+  text-align: center;
+  background-image: image_url("saut.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding-top: 330px;
+
+
+}
+
+.banner h3,{
+    fond-weight: bold;
+    font-size: 30 px;
+    color: #FF5400;
+
+}
+
+.banner a,{
+  margin-top: 200px
+
+}
+

@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  emprunt: MyString
+  nombre: 1
+  montant: 1
+  taux: 1.5
+  duree: 1
+  type: 
+  differe: 1
+  date: 2017-12-11 20:02:19
+  nombre: 1
+
+two:
+  emprunt: MyString
+  nombre: 1
+  montant: 1
+  taux: 1.5
+  duree: 1
+  type: 
+  differe: 1
+  date: 2017-12-11 20:02:19
+  nombre: 1
